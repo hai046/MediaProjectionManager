@@ -30,6 +30,8 @@ public class ScreenRecordActivity extends Activity implements OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //JNI不需要了
+         
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
         mRunButton = (Button) findViewById(R.id.run);
